@@ -1,0 +1,41 @@
+:root{
+    --bg-color: #282828;
+    --green-v1: #2AA93E;
+    --body-font: "Satoshi",sans-serif;
+    --header-font: 'Cabinet Grotesk', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    transition: all .2s;
+}
+a:hover{
+    transform: translate(3px);
+}
+
+svg{
+    stroke: 1px black;
+}
+
+body{
+    color: white;
+    background-color: var(--bg-color);
+    font-family: var(--body-font);
+}
+
+
+.nav-bar{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: right;
+    padding: 2%;
+}
+.socials{
+    text-decoration: none;
+    color: white;
+    transition: all .2s;
+}
+.socials:hover{
+    color: var(--green-v1);
+}
