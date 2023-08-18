@@ -166,7 +166,7 @@ input[type=text]{
     border-top: 1px solid #27AE60;
     display: none;
     height: 1516px;
-    margin: 10%;
+    margin: 5%;
     padding: 5%;
     flex-direction: column;
     align-items: center;
@@ -178,8 +178,10 @@ input[type=text]{
     background-color: rgb(24, 24, 24);
     display: block;
     place-items: center;
-    padding: 50px;
+    padding: 30px;
     border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 300;
     transition: translate 0.2s;
     border: 1px dashed #27ae5f00;
     cursor: pointer;
@@ -194,7 +196,7 @@ input[type=text]{
     border: 1px solid #27ae5f65;
     translate: 0px 3px;
 }
-.box-test::after{
+/* .box-test::after{
     content: "copy";
     display: block;
     text-align: center;
@@ -204,7 +206,7 @@ input[type=text]{
 
     color: white;
 
-}
+} */
 
 .box-test:hover::after{
     color:var(--green-v2);
