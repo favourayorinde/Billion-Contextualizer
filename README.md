@@ -1,2 +1,2 @@
 # Billion-Contextualizer
- A simple calculator that rephrases numerica values into metaphors.
+ A simple calculator that rephrases numerical values into metaphors.
